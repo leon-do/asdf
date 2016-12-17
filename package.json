@@ -1,30 +1,26 @@
 {
   "name": "asdf",
-  "version": "0.2.5",
-  "description": "asdf",
-  "engines": {
-    "node": "5.9.1"
-  },
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3",
-    "slack-node": "^0.1.8",
-    "cron": "^1.1.1"
+    "connect": "^3.5.0",
+    "request": "^2.79.0",
+    "serve-static": "^1.11.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/leon-do/asdf.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT",
-  "devDependencies": {},
-  "author": ""
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leon-do/asdf/issues"
+  },
+  "homepage": "https://github.com/leon-do/asdf#readme"
 }
