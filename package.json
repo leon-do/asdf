@@ -1,26 +1,32 @@
 {
   "name": "asdf",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "connect": "^3.5.0",
-    "request": "^2.79.0",
-    "serve-static": "^1.11.1",
-    "url": "^0.11.0"
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
   },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leon-do/asdf.git"
+    "url": "git+https://github.com/heroku/node-js-getting-started.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leon-do/asdf/issues"
+    "url": "https://github.com/heroku/node-js-getting-started/issues"
   },
-  "homepage": "https://github.com/leon-do/asdf#readme"
+  "homepage": "https://github.com/heroku/node-js-getting-started#readme",
+  "devDependencies": {},
+  "author": ""
 }
