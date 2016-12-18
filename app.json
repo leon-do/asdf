@@ -3,6 +3,6 @@
   "description": "asdf",
   "repository": "",
   "logo": "",
-  "keywords": ["node", "express", "static", "javascript"],
-  "image": ""
+  "keywords": ["node", "express", "static"],
+  "image": "nodejs"
 }
